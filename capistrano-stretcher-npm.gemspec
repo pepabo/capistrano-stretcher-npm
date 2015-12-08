@@ -1,11 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'capistrano/stretcher/npm/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "capistrano-stretcher-npm"
-  spec.version       = Capistrano::Stretcher::Npm::VERSION
+  spec.version       = "0.1.0"
   spec.authors       = ["SHIBATA Hiroshi"]
   spec.email         = ["hsbt@ruby-lang.org"]
 
